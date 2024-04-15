@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+
+   } 
+   body{
+    background: aliceblue;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+   }
+   .Main {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+    color: black;
+    width: 200px;
+    border: 2px solid rgb(134, 10, 103);
+    border-radius: 20px;
+    background: transparent;
+    padding-left: 10px;
+    margin-right: 20px;
+   }
+   button{
+    padding: 5px;
+    font-size: 40px;
+    background: rgb(1, 63, 99);
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+   }
+   .contant {
+    display: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-shadow:   0 0 9px blue, 
+                   0 0 7px #fff, 
+                   0 0 10px #fff;
+   }
+   .heart{
+    animation: zoom 0.2s linear;
+    animation-iteration-count: infinite;
+   }
